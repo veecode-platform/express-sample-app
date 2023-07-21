@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: express-sample-app
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "express-sample-app"
+    github.com/project-slug: veecode-platform/express-sample-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "veecode-platform"
+
+
+
